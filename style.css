@@ -1,0 +1,104 @@
+body{
+	margin:0;
+}
+header{
+	background-image:url(https://digital.bg/wp-content/uploads/2023/06/samsung-galaxy-s24-fe-1.jpg);
+	background-size:cover;
+	height:100vh;
+	position:relative;
+	box-shadow: inset 0px -50px 22px -6px rgba(255,255,255,1);
+}
+header div{
+	padding:3% 5%;
+	border-radius:0 15px  0 0;
+	background: linear-gradient( 170deg, #FA8072 40%, white);
+	box-shadow: inset 0px -50px 22px -6px rgba(255,255,255,1);
+	
+	width:40%;
+	position:absolute;
+	bottom:0px;#ffe347
+	right:0px;
+	
+}
+header h1{
+	letter-spacing:5px;
+	font-weight:900;
+	font-size:55px;
+	
+}
+header p{
+	font-size:20px;
+	text-align:justify;
+}
+main h3 {
+	font-size:22px;
+	font-weight:900;
+	margin: 1% 0;
+	border-bottom: 2px solid black;
+	padding-bottom: 1%;
+	
+}
+main {
+	padding:3% 5%;
+	font-size:20px;
+}
+main h2{
+	letter-spacing:5px;
+	font-weight:900;
+	width:100%;
+}
+.info div{
+	display:flex;
+	justify-content:center;
+}
+.info img{
+	width:50%;
+}
+.info p{
+	text-align:justify;
+	padding: 0 3%;
+}
+.harakter p{
+	margin-left:5%;
+	
+}
+.harakter p::before{
+	content:url(https://img.icons8.com/officexs/16/100-percents.png);
+	display:inline-block;
+	margin-right:10px;
+}
+.harakter{
+	display:flex;
+	justify-content:center;
+	align-items:flex-start;
+}
+.video{
+	width:50%;
+	position:sticky;
+	top:0;
+	padding:0 5%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+	height:80vh;
+	
+	
+}
+.video img{
+	width:70%;
+}
+.video a{
+	text-decoration:none;
+	padding:3% 10%;
+	border-radius:15px;
+	background-color: #FA8072;
+	color:white;
+	font-size:25px;
+	font-weight:900;
+	letter-spacing:3px;
+	transition:0.5s;
+}
+.video a:hover{
+	background-color:#d45142;
+}
